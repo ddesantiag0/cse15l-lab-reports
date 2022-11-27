@@ -46,6 +46,6 @@ exit
 
 Worked with Adarsh Patel
 
-- ![Image](./PASSED TEST.png)
-- ![Image](./Filename Not Found.png)
-- ![Image](./Compiler Error.png)
+![Image](./PASSED TEST.png)
+![Image](./Filename Not Found.png)
+![Image](./Compiler Error.png)
