@@ -54,4 +54,4 @@ Worked with Adarsh Patel
 
 ![Image](./CompilerError.png)
 
-![Image](./Tests.png)
+![Image](./TESTS.png)
