@@ -63,7 +63,7 @@ exit
 | -------- |   :-----------------------------:  |     :-----------------:   |   :----------   |
 |    3     |     `rm -rf student-submission`    |              N/A          |         0       |
 |    4     | `git clone $1 student-submission`  |              N/A          |         0       |
-|    6     |        `echo "Cloning..."          |         `Cloning...`      |         0       |
+|    6     |        `echo "Cloning..."`         |         `Cloning...`      |         0       |
 |    8     |      `cd student-submission`       |              N/A          |         0       |
 |    10    |    `if [ -f ListExamples.java ]`   |              N/A          |         0       |
 |    11    |            `then`                  |              N/A          |         0       |
