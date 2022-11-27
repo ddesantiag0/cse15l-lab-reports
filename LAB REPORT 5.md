@@ -57,3 +57,18 @@ exit
 
 ![Image](./TESTS.png)
 
+### Trace *FilenameNotFound* 
+
+|   Line   |            Command used            |       Standard Output     |   Return Code   |
+| -------- |   :-----------------------------:  |     :-----------------:   |   :----------   |
+|    3     |     `rm -rf student-submission`    |              N/A          |         0       |
+|    4     | `git clone $1 student-submission`  |              N/A          |         0       |
+|    6     |        `echo "Cloning..."          |         `Cloning...`      |         0       |
+|    8     |      `cd student-submission`       |              N/A          |         0       |
+|    10    |    `if [ -f ListExamples.java ]`   |              N/A          |         0       |
+|    11    |            `then`                  |              N/A          |         0       |
+|    14    | `echo "Student's file not found."` |`Student's file not found.`|         0       |
+|    15    |            `exit`                  |              N/A          |         1       |
+
+- On Line 10 the if statement was false because there was not a file named ListExamples.java found in the directory which means that it skipped line 12, echoed line 14 and after exited. This means that the program stopped running after and printed out line 4, line 6, and line 14. 
+
