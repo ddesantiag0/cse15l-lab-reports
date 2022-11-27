@@ -70,5 +70,5 @@ exit
 |    14    | `echo "Student's file not found."` |`Student's file not found.`|         0       |
 |    15    |            `exit`                  |              N/A          |         1       |
 
-- On Line 10 the if statement was false because there was not a file named ListExamples.java found in the directory which means that it skipped line 12, echoed line 14 and after exited. This means that the program stopped running after and printed out line 4, line 6, and line 14. 
+- On Line 10 the if statement was false because there was not a file named ListExamples.java found in the directory which means that it skipped line 12, echoed line 14 and after exited. This means that the program stopped running after and printed out line 4, line 6, and line 14. Lines 24, and 33 do not run because of an early exit and after running `javac GradeServer.java Server.java` and `java GradeServer 1255` you get the outputs of lines 4, 6, and 14.
 
